@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>VRMedia - Iphone - Ipad</title>
+		<link rel="stylesheet" href="./style/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+			integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+			integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body style="background-color: #f2f2f2">
+		<!-- header  -->
+		<header
+			class="navbar navbar-expand-lg navbar-dark"
+			id="top-main-navigation"
+		>
+			<div class="container">
+				<div class="col-lg-3 col-md-3">
+					<a class="navbar-brand" href="#"><b>POLY</b>Shop</a>
+				</div>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="col-lg-6 col-md-6">
+					<div class="navbar-nav mx-auto">
+						<form class="d-flex w-100">
+							<input
+								class="form-control mr-1"
+								type="search"
+								placeholder="Search"
+								aria-label="Search"
+							/>
+							<button class="btn btn-outline-light" type="submit">
+								Search
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a
+									class="nav-link pr-2"
+									aria-current="page"
+									onclick="clicknav(2)"
+									style="cursor: pointer"
+									>IPHONE</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link disabled"
+									aria-current="page"
+									href="./ipad.html"
+									>Ipad</a
+								>
+							</li>
+							<li class="nav-item pr-5">
+								<a
+									class="nav-link disabled"
+									aria-current="page"
+									href="./watch.html"
+									>Watch</a
+								>
+							</li>
+
+							<li class="nav-item"></li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="./cart.html"
+									tabindex="-1"
+									aria-disabled="true"
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="25"
+										height="25"
+										viewBox="0 0 25 25"
+										style="fill: rgb(255, 255, 255)"
+									>
+										<path
+											d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"
+										></path></svg
+								></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- nav  -->
+
+		<!-- ////// -->
+
+		<!-- slider  -->
+		<div id="nonepolyshop">
+			<ul class="nav nav-tabs mt-3 mb-3">
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark active"
+						style="cursor: pointer"
+						onclick="clicknav(1)"
+						id="polyshopNav"
+						>POLYShop</a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark"
+						style="cursor: pointer"
+						onclick="clicknav(2)"
+						id="iphoneNav"
+						>IPHONE</a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark disabled">Ipad</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark disabled">Watch</a>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark"
+						style="cursor: pointer"
+						onclick="clicknav(3)"
+						id="cartNav"
+						>Giỏ Hàng</a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled">Disabled</a>
+				</li>
+			</ul>
+			<div class="container-fluid p-0">
+				<div class="slider d-xxl-block d-none">
+					<box-icon
+						class="slider-prev"
+						name="chevron-left"
+						animation="tada-hover"
+						color="rgba(0,0,0,0.5"
+					></box-icon>
+					<ul class="slider-dots">
+						<li class="slider-dot-item active" data-index="0"></li>
+						<li class="slider-dot-item" data-index="1"></li>
+						<li class="slider-dot-item" data-index="2"></li>
+						<li class="slider-dot-item" data-index="3"></li>
+						<li class="slider-dot-item" data-index="4"></li>
+					</ul>
+					<div class="slider-wrapper">
+						<div class="slider-main">
+							<div class="slider-item">
+								<img src="./img/1.webp" alt="" />
+							</div>
+							<div class="slider-item">
+								<img src="./img/2.webp" alt="" />
+							</div>
+							<div class="slider-item">
+								<img src="./img/3.webp" alt="" />
+							</div>
+							<div class="slider-item">
+								<img src="./img/4.webp" alt="" />
+							</div>
+							<div class="slider-item">
+								<img src="./img/5.webp" alt="" />
+							</div>
+						</div>
+					</div>
+					<box-icon
+						class="slider-next"
+						name="chevron-right"
+						animation="tada-hover"
+						color="rgba(0,0,0,0.5)"
+					></box-icon>
+				</div>
+			</div>
+
+			<!-- 3 pahn quang cao  -->
+			<!-- 3 pahn quang cao  -->
+			<!-- 3 pahn quang cao  -->
+			<div class="quangcao-3 mt-3">
+				<div class="container">
+					<div class="row">
+						<div class="col-4">
+							<img style="width: 100%" src="./img/quangcao-1.webp" alt="" />
+						</div>
+						<div class="col-4">
+							<img style="width: 100%" src="./img/quangcao-2.webp" alt="" />
+						</div>
+						<div class="col-4">
+							<img style="width: 100%" src="./img/quangcao-3.webp" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h1 class="text-center mt-4">iPhone</h1>
+
+			<div class="shop-iphone">
+				<div class="container">
+					<div class="row pb-5 px-0" id="iphone">
+						<!-- ////////////////////////////// -->
+					</div>
+					<button
+						type="button"
+						class="btn btn-outline-primary ml-auto mr-auto d-flex d-none khongChoBam"
+						onclick="showItems('iphone',dataIphone), dlBlockShow()"
+					>
+						Xem tất cả iPhone >
+					</button>
+					<button
+						type="button"
+						class="btn btn-outline-primary ml-auto mr-auto d-none d-none choBam"
+						onclick="showItems('iphone',dataIphone,4), dlNoneShow()"
+					>
+						thu gọn lại ^
+					</button>
+				</div>
+			</div>
+			<h1 class="text-center mt-4">iPad</h1>
+
+			<div class="shop-iphone">
+				<div class="container">
+					<div class="row pb-5 px-0" id="ipad">
+						<!-- ////////////////////////////// -->
+					</div>
+					<button
+						type="button"
+						class="btn btn-outline-primary ml-auto mr-auto d-flex disabled"
+					>
+						Xem tất cả iPad >
+					</button>
+				</div>
+			</div>
+			<h1 class="text-center mt-4">Watch</h1>
+
+			<div class="shop-iphone">
+				<div class="container">
+					<div class="row pb-5 px-0" id="watch">
+						<!-- ////////////////////////////// -->
+					</div>
+					<button
+						type="button"
+						class="btn btn-outline-primary ml-auto mr-auto d-flex disabled"
+					>
+						Xem tất cả Watch >
+					</button>
+				</div>
+			</div>
+
+			<!-- endd -->
+			<div class="container">
+				<img style="width: 100%" class="mt-5" src="./img/sapend.webp" alt="" />
+			</div>
+		</div>
+
+		<div id="noneiphone" style="display: none">
+			<ul class="nav nav-tabs mt-3 mb-3">
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark"
+						style="cursor: pointer"
+						onclick="clicknav(1)"
+						id="polyshopNav"
+						>POLYShop</a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark active"
+						style="cursor: pointer"
+						onclick="clicknav(2)"
+						id="iphoneNav"
+						>IPHONE</a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark disabled">Ipad</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark disabled">Watch</a>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark"
+						style="cursor: pointer"
+						onclick="clicknav(3)"
+						id="cartNav"
+						>Giỏ Hàng</a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled">Disabled</a>
+				</li>
+			</ul>
+			<h1 class="text-center mt-4">iPhone</h1>
+
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link active text-dark" aria-current="page" href="#"
+						>Tất Cả</a
+					>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link text-black-50" href="#">iPhone 14</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-black-50" href="#">iPhone 13</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-black-50" href="#">iPhone 12</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-black-50" href="#">iPhone 11</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-black-50" href="#">iPhone SE</a>
+				</li>
+			</ul>
+
+			<div class="shop-iphone">
+				<div class="container">
+					<div class="row pb-5" id="thongTinIphone">
+						<!-- ////////////////////////////// -->
+						<!-- ////////////////////////////// -->
+						<!-- ////////////////////////////// -->
+						<!-- ////////////////////////////// -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ////// -->
+		<div id="nonecart" style="display: none">
+			<ul class="nav nav-tabs mt-3 mb-3">
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark"
+						style="cursor: pointer"
+						onclick="clicknav(1)"
+						id="polyshopNav"
+						>POLYShop</a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark"
+						style="cursor: pointer"
+						onclick="clicknav(2)"
+						id="iphoneNav"
+						>IPHONE</a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark disabled">Ipad</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark disabled">Watch</a>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark active"
+						style="cursor: pointer"
+						onclick="clicknav(3)"
+						id="cartNav"
+						>Giỏ Hàng</a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled">Disabled</a>
+				</li>
+			</ul>
+			<h1 class="text-center mt-4">Giỏ Hàng</h1>
+
+			<!-- slider  -->
+
+			<section class="h-100 h-custom" style="background-color: #f2f2f2">
+				<div class="container py-5 h-100">
+					<div
+						class="row d-flex justify-content-center align-items-center h-100"
+					>
+						<div class="col-12">
+							<div
+								class="card card-registration card-registration-2"
+								style="border-radius: 15px"
+							>
+								<div class="card-body p-0">
+									<div class="row g-0">
+										<div class="col-lg-8">
+											<div class="p-5">
+												<div
+													class="d-flex justify-content-between align-items-center mb-5"
+												>
+													<h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
+													<h6 class="mb-0 text-muted">
+														<span class="sll">0</span> SL
+													</h6>
+												</div>
+												<hr class="my-4" />
+												<!-- ////////// -->
+												<div id="IDitemCart">
+													<h4 class="text-danger text-center">
+														Giỏ hàng trống
+													</h4>
+													<img
+														class="w-25 d-flex mx-auto"
+														src="./img/add-to-cart.png"
+														alt=""
+													/>
+													<!-- <div class="row mb-4 d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <img
+                            src="./img/iphone-11-green-1-650x650-2.png"
+                            class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <h5 class="text-muted">iPhone</h5>
+                          <h6 class="text-black mb-0">Cotton T-shirt</h6>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+  
+                          <button type="button" class="btn btn-primary" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">-</button>
+    
+                          <input style="width:40px ;" class="text-center mx-3" type="number"value="1">
+                          <button type="button" class="btn btn-primary" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">+</button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <h6 class="mb-0"> 44.000₫</h6>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                          <button type="button" class="btn btn-danger">X</button>
+                        </div>
+                      </div>
+    
+                      <hr class="my-4"> -->
+												</div>
+												<!-- ////////// -->
+
+												<!-- <div class="pt-5">
+                      <h6 class="mb-0"><a href="#!" class="text-body"><i
+                            class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
+                    </div> -->
+											</div>
+										</div>
+										<div class="col-lg-4 bg-grey">
+											<div class="p-5">
+												<h3 class="fw-bold mb-5 mt-2 pt-1">Tổng Giỏ Hàng</h3>
+												<hr class="my-4" />
+
+												<div class="d-flex justify-content-between mb-4">
+													<h5 class="text-uppercase">
+														Số Lượng <span class="sll">0</span>
+													</h5>
+													<h5 class="showGiaIphone">0₫</h5>
+												</div>
+
+												<h5 class="text-uppercase mb-3">Đơn vị giao hàng</h5>
+
+												<div class="mb-4 pb-2">
+													<select
+														id="selecttt"
+														class="select form-control"
+														onchange="resetGia()"
+													>
+														<option value="50000" onchange="giamGia(1)">
+															Shopee - 50.000₫
+														</option>
+														<option value="100000" onchange="giamGia(2)">
+															Grap - 100.000₫
+														</option>
+														<option value="20000" onchange="giamGia(3)">
+															GHTK - 20.000₫
+														</option>
+													</select>
+												</div>
+
+												<h5 class="text-uppercase mb-3">nhập mã giảm giá</h5>
+
+												<div class="mb-5">
+													<div class="form-outline">
+														<input
+															type="text"
+															id="form3Examplea2"
+															class="form-control form-control-lg"
+														/>
+														<label class="form-label" for="form3Examplea2"
+															>Enter your code</label
+														>
+													</div>
+												</div>
+
+												<hr class="my-4" />
+
+												<div class="d-flex justify-content-between mb-5">
+													<h5 class="text-uppercase">Tổng</h5>
+													<h5 class="showGiaIphone">0₫</h5>
+												</div>
+
+												<button
+													type="button"
+													class="btn btn-dark btn-block btn-lg"
+													data-mdb-ripple-color="dark"
+												>
+													Register
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- foootter -->
+		<hr />
+		<!-- Footer -->
+
+		<!-- Remove the container if you want to extend the Footer to full width. -->
+		<div class="container-fluid p-0">
+			<!-- Footer -->
+			<footer
+				class="text-center text-white"
+				style="background-color: #000000ca"
+			>
+				<!-- Grid container -->
+				<div class="container">
+					<!-- Section: Links -->
+					<section class="mt-5">
+						<!-- Grid row-->
+						<div class="row text-center d-flex justify-content-center pt-5">
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">About us</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">Products</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">Awards</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">Help</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">Contact</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+						</div>
+						<!-- Grid row-->
+					</section>
+					<!-- Section: Links -->
+
+					<hr class="my-5" />
+
+					<!-- Section: Text -->
+					<section class="mb-5">
+						<div class="row d-flex justify-content-center">
+							<div class="col-lg-8">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+									distinctio earum repellat quaerat voluptatibus placeat nam,
+									commodi optio pariatur est quia magnam eum harum corrupti
+									dicta, aliquam sequi voluptate quas.
+								</p>
+							</div>
+						</div>
+					</section>
+					<!-- Section: Text -->
+
+					<!-- Section: Social -->
+					<section class="text-center mb-5">
+						<a href="" class="text-white me-4">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-google"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-github"></i>
+						</a>
+					</section>
+					<!-- Section: Social -->
+				</div>
+				<!-- Grid container -->
+
+				<!-- Copyright -->
+				<div
+					class="text-center p-3"
+					style="background-color: rgba(0, 0, 0, 0.2)"
+				>
+					© 2020 Copyright:
+					<a class="text-white" href="https://mdbootstrap.com/"
+						>MDBootstrap.com</a
+					>
+				</div>
+				<!-- Copyright -->
+			</footer>
+			<!-- Footer -->
+		</div>
+		<!-- End of .container -->
+
+		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+		<script src="./thongtiniphone.js"></script>
+		<script src="./js.js"></script>
+	</body>
+</html>
