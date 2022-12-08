@@ -1,0 +1,129 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "nike",
+            "createAt": 1616346753759,
+            "updateAt": 1616346753759
+        },
+        {
+            "id": 2,
+            "name": "Jordan",
+            "createAt": 1616346753759,
+            "updateAt": 1616346753759
+        },
+        {
+            "id": 3,
+            "latestNewsItems": [
+                {
+                    "id": "AirJordan1Low006",
+                    "nameItem": "UNC",
+                    "itemPrice": 50002200,
+                    "itemType": "Jordan",
+                    "itemImage": "./img/Pictures/Giày3.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                },
+                {
+                    "id": "NikeDunkLow007",
+                    "nameItem": "Velcro Tongue",
+                    "itemPrice": 1231200,
+                    "itemType": "Nike",
+                    "itemImage": "./img/Pictures/Giày7.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                },
+                {
+                    "id": "AirJordan4008",
+                    "nameItem": "Country Blue",
+                    "itemPrice": 1000000000,
+                    "itemType": "Nike",
+                    "itemImage": "./img/Pictures/Giày8.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                },
+                {
+                    "id": "AirJordan4009",
+                    "nameItem": "Country Blue",
+                    "itemPrice": 19800000,
+                    "itemType": "Nike",
+                    "itemImage": "./img/Pictures/Giày8.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "justDroppedItems": [
+                {
+                    "id": "NikeDunkLow001",
+                    "nameItem": "Reverse UNC",
+                    "itemPrice": 120000000,
+                    "itemType": "Nike",
+                    "itemImage": "./img/Pictures/Giày2.jpg",
+                    "itemDiscount": "Release: 12/29/2022"
+                },
+                {
+                    "id": "NikeDunkLow002",
+                    "nameItem": "Fruity Pebbles",
+                    "itemPrice": 5200000,
+                    "itemType": "Jordan",
+                    "itemImage": "./img/Pictures/Giày6.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                },
+                {
+                    "id": "AirJordan1High85003",
+                    "nameItem": "Black/White",
+                    "itemPrice": 120500,
+                    "itemType": "Nike",
+                    "itemImage": "./img/Pictures/Giày4.jpg",
+                    "itemDiscount": "Release: 06/23/2018"
+                },
+                {
+                    "id": "AirJordan4004",
+                    "nameItem": "Pink Riot",
+                    "itemPrice": 1200,
+                    "itemType": "Jordan",
+                    "itemImage": "./img/Pictures/Giày1.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                },
+                {
+                    "id": "NikeDunkLow005",
+                    "nameItem": "UCLA",
+                    "itemPrice": 900,
+                    "itemType": "Nike",
+                    "itemImage": "./img/Pictures/Giày5.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                }
+            ]
+        },
+        {
+            "bestSellerItems": [
+                {
+                    "id": "AirJordan40010",
+                    "nameItem": "Thunder",
+                    "itemPrice": 1299999,
+                    "itemType": "Jordan",
+                    "itemImage": "./img/Pictures/Giày9.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                },
+                {
+                    "id": "Yeezy3500011",
+                    "nameItem": "Pirate Black",
+                    "itemPrice": 12312310,
+                    "itemType": "Yeezy",
+                    "itemImage": "/img/Pictures/Giày10.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                },
+                {
+                    "id": "AirJordan1High0012",
+                    "nameItem": "TRUE BLUE",
+                    "itemPrice": 10210000,
+                    "itemType": "Jordan",
+                    "itemImage": "./img/Pictures/Giày8.jpg",
+                    "itemDiscount": "Release: 05/05/2021"
+                }
+            ]
+        }
+    ],
+    "profile": {
+        "name": "Ethan"
+    }
+}

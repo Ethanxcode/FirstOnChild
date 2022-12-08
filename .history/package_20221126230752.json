@@ -1,0 +1,30 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "using json to storage data",
+  "main": "manageJson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon manageJson.js",
+    "start": "node manageJson.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ginnart/FirstOnChild.git"
+  },
+  "keywords": [
+    "Json-server"
+  ],
+  "author": "Ethan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ginnart/FirstOnChild/issues"
+  },
+  "homepage": "https://github.com/Ginnart/FirstOnChild#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

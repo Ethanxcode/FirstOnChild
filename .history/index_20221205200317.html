@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>VRMedia - Iphone - Ipad</title>
+		<link rel="stylesheet" href="./style/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+			integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+			integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+			crossorigin="anonymous"
+		></script>
+		
+		
+	</head>
+
+	<body  id="myBody">
+		<!-- header  -->
+		<header
+			class="navbar navbar-expand-lg navbar-dark"
+			id="top-main-navigation"
+		>
+			<div class="container" id="">
+				<div class="col-lg-3 col-md-3">
+					<a class="navbar-brand" href="./index.html"><b>POLY</b>Shop</a>
+				</div>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="col-lg-6 col-md-6">
+					<div class="navbar-nav mx-auto">
+						<form class="d-flex w-100">
+							<input
+							id="myInput"
+						
+								class="formControl mr-1 autocomplete text-field"
+								type="text"
+								placeholder="Search"
+								aria-label="Search"
+							/>
+							<button class="btn btnFloat" type="submit">
+								Search
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto mb-2 mb-lg-0 d-flex">
+							<!-- <li class="nav-item">
+								<a class="nav-link pr-2" aria-current="page" href="./index.html"
+									>Account</a
+								>
+							</li> -->
+							<!-- <li class="nav-item">
+								<a class="nav-link" aria-current="page" href="./ipad.html"
+									>Adidas</a
+								>
+							</li> -->
+							<!-- <li class="nav-item pr-5">
+								<a class="nav-link" aria-current="page" href="./watch.html"
+									>Account</a
+								>
+							</li> -->
+							<li class="nav-item d-flex justify-content-center align-items-center"><div class="form-check form-switch">
+  							<input class="form-check-input opacity-10 bg-dark border border-dark p-2" style="cursor:pointer; user-select:none;" type="checkbox" role="switch" onclick="toggleLight()" id="flexSwitchCheckChecked" checked>
+</div></li>
+							<li class="nav-item  ">
+								<a
+									class="nav-link"
+									href="#"
+									tabindex="-1"
+									aria-disabled="true"
+									><button  type="button" class="btn " data-toggle="modal" data-target="#cart" style="box-shadow: none !important;" ><svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="25"
+										height="25"
+										viewBox="0 0 25 25"
+										style="fill: rgb(255, 255, 255)"
+									>
+										<path
+											d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"
+										></path></svg
+								><span class="total-count button-typo-callout " style="
+						
+							
+							"></span>
+							<div id="mySidenav" class="sidenav">
+		<table class="show-mini-cart table">
+  					<!-- <button type="button"  class="closeBtn" onclick="openNav()" data-dismiss="modal"><span aria-hidden="true">X</span></button> -->
+
+		</table>
+
+</div>
+						</button>
+						
+							</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+<!-- Use any element to open the sidenav -->
+		<!-- nav  -->
+		<ul class="nav nav-tabs mb-3">
+			<li class="nav-item">
+				<a class="nav-link text-dark active" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-dark" href="./justDropped.html">Just Dropped</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-dark" href="./LastestNews.html">Latest News</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-dark" href="./BestSeller.html"">Best Sellers</a>
+			</li>
+				<!-- <li class="nav-item">
+				<a class="nav-link text-dark" href="./cart.html">My Cart</a>
+			</li> -->
+	
+			<!-- <li class="nav-item">
+				<a class="nav-link text-dark" href="./cart.html">Cart</a>
+			</li> -->
+			<!-- <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li> -->
+		</ul>
+		<!-- ////// -->
+
+		<!-- slider  -->
+		<div class="slideshow-container container d-xl-block d-none" >
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides fade ">
+				<!-- <div class="numbertext">1 / 4</div> -->
+				<img src="./img/1.webp" style="width: 100%" />
+				<!-- <div class="text">Caption Text</div> -->
+			</div>
+
+			<div class="mySlides fade">
+				<!-- <div class="numbertext">2 / 4</div> -->
+				<img src="./img/2.webp" style="width: 100%" />
+				<!-- <div class="text">Caption Two</div> -->
+			</div>
+
+			<div class="mySlides fade">
+				<!-- <div class="numbertext">3 / 4</div> -->
+				<img src="./img/3.webp" style="width: 100%" />
+				<!-- <div class="text">Caption Three</div> -->
+			</div>
+			<div class="mySlides fade">
+				<!-- <div class="numbertext">4 / 4</div> -->
+				<img src="./img/4.webp" style="width: 100%" />
+				<!-- <div class="text">Caption four</div> -->
+			</div>
+
+			<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<!-- <div style="text-align: center; margin-top: 16px">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			</div> -->
+		</div>
+		<br />
+
+		<!-- The dots/circles -->
+
+		<!-- 3 pahn quang cao  -->
+
+		<div class="quangcao-3 d-xl-block d-none">
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<img style="width: 100%; border-radius: 12px;" class="p-0" src="./img/quangcao-1.webp" alt="" />
+					</div>
+					<div class="col-4">
+						<img style="width: 100%; border-radius: 12px;" class="p-0" src="./img/quangcao-2.webp" alt="" />
+					</div>
+					<div class="col-4">
+						<img style="width: 100%; border-radius: 12px;" class="p-0" src="./img/quangcao-3.webp" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<ul class="nav justify-content-center">
+			<li class="nav-item">
+				<a class="nav-link active " aria-current="page" href="#"
+					>All</a
+				>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link text-dark " href="#">Nike</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-dark " href="#">Jordan</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-dark " href="#">Yeezy</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-dark " href="#">Sneaker</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-dark " href="#">Adidas</a>
+			</li>
+		</ul>
+		<!-- ihpoenne
+    ihpoenne
+    ihpoenne -->
+		<h1 class="text-center mt-4 typo-callout">Just Dropped</h1>
+
+		<div class="container">
+			<div class="row text-center" id="justDropped"></div>
+			<a
+				href="./justDropped.html"
+				class="text-decoration-none typo-callout p-1 d-flex justify-content-center text-uppercase"
+				style="
+					border: none;
+					font-size: 1.2em;
+					margin-top: 32px;
+					outline: none !important;
+				"
+			>
+				More
+			</a>
+			<hr />
+		</div>
+
+		<h1 class="text-center mt-4 typo-callout">Latest News</h1>
+
+		<div class="container">
+			<div class="row text-center" id="latestNews"></div>
+			<a
+				href="./LastestNews.html"
+				class="text-decoration-none typo-callout text-uppercase p-1 d-flex justify-content-center"
+				style="
+					border: none;
+					font-size: 1.2em;
+					margin-top: 32px;
+					outline: none !important;
+				"
+			>
+				More
+			</a>
+			<hr />
+		</div>
+		<!-- watchwatchwatchwatchwatch -->
+		<h1 class="text-center mt-4 typo-callout">Best Seller</h1>
+	
+
+		<div class="container">
+			<div class="row text-center" id="bestSeller"></div>
+			<a
+				href="./BestSeller.html"
+				class="text-decoration-none typo-callout  text-uppercase p-1 d-flex justify-content-center"
+				style="
+					border: none;
+					font-size: 1.2em;
+					margin-top: 32px;
+					outline: none !important;
+				"
+			>
+				More
+			</a>
+			
+			<hr />
+			
+		</div>
+
+	
+
+		<div class="container">
+			<img style="width: 100%" class="mt-5" src="./img/sapend.webp" alt="" />
+		</div>
+		<!-- foootter -->
+		<hr />
+		<!-- Footer -->
+
+		<!-- Remove the container if you want to extend the Footer to full width. -->
+		<div class="container-fluid p-0">
+			<!-- Footer -->
+			<footer
+				class="text-center text-white"
+				style="background-color: #000000ca"
+			>
+				<!-- Grid container -->
+				<div class="container">
+					<!-- Section: Links -->
+					<section class="mt-5">
+						<!-- Grid row-->
+						<div class="row text-center d-flex justify-content-center pt-5">
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">About us</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">Products</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">Awards</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">Help</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+
+							<!-- Grid column -->
+							<div class="col-md-2">
+								<h6 class="text-uppercase font-weight-bold">
+									<a href="#!" class="text-white">Contact</a>
+								</h6>
+							</div>
+							<!-- Grid column -->
+						</div>
+						<!-- Grid row-->
+					</section>
+					<!-- Section: Links -->
+
+					<hr class="my-5" />
+
+					<!-- Section: Text -->
+					<section class="mb-5">
+						<div class="row d-flex justify-content-center">
+							<div class="col-lg-8">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+									distinctio earum repellat quaerat voluptatibus placeat nam,
+									commodi optio pariatur est quia magnam eum harum corrupti
+									dicta, aliquam sequi voluptate quas.
+								</p>
+							</div>
+						</div>
+					</section>
+					<!-- Section: Text -->
+
+					<!-- Section: Social -->
+					<section class="text-center mb-5">
+						<a href="" class="text-white me-4">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-google"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a href="" class="text-white me-4">
+							<i class="fab fa-github"></i>
+						</a>
+					</section>
+					<!-- Section: Social -->
+				</div>
+				<!-- Grid container -->
+
+				<!-- Copyright -->
+				<div
+					class="text-center p-3"
+					style="background-color: rgba(0, 0, 0, 0.2)"
+				>
+					© 2020 Copyright:
+					<a class="text-white" href="https://mdbootstrap.com/"
+						>MDBootstrap.com</a
+					>
+				</div>
+				<!-- Copyright -->
+			</footer>
+		
+			<!-- Footer -->
+		</div>
+		<!-- End of .container -->
+		<div class=" showSuccesToast  toast mt-3 show justify-content-center flex-column fade ml-auto mr-auto d-none ">
+    <div class="toast-header justify-content-center">
+     <box-icon name='cart-add' type='solid' animation='tada' color="#fff" style="width: 46px ; height: 44px; background-color: #47d864; border-radius: 50%; padding: 4px; border-color: #47d864 ;"></box-icon>
+    </div>
+    <div class="toast-body text-center">
+      <h6>The product has been added to cart</h6>
+    </div>
+  </div>
+  		<div class=" showErrorToast toast mt-3 show justify-content-center flex-column fade ml-auto mr-auto d-none ">
+    <div class="toast-header justify-content-center">
+     <box-icon name='bug' type='solid' animation='spin' color="#fff" style="width: 46px ; height: 44px; background-color: #ff623d; border-radius: 50%; padding: 4px; border-color:#ff623d"></box-icon>
+    </div>
+    <div class="toast-body text-center">
+      <h6>The product has been added to cart</h6>
+    </div>
+  </div>
+			<button onclick="scrollTime()" class="go-top" aria-disabled="true">
+		<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" style="fill: #fff;"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path></svg>
+		</button>
+
+
+			<div class="modal " id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+			<div class="container py-5 ">
+				<div class="row d-flex justify-content-center align-items-center ">
+					<div class="col-12">
+						<div class="card card-registration card-registration-2" style="border-radius: 15px;">
+							<div class="card-body p-0">
+								<div class="row g-0">
+									<div class="col-lg-8" class="modal-dialog modal-lg" role="document">
+										<div class="p-5 modal-content" style="height: 100%;">
+											<div class="d-flex justify-content-between align-items-center mb-5">
+												<h1 class="fw-bold mb-0 text-black modal-header">Shopping Cart</h1>
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												<table class="show-cart table"></table>
+												<!-- <div>Total price: $<span class="total-cart"></span></div> -->
+												</table>
+												<div class="modal-footer" style="border-top: none ;">
+													<!-- <button type="button" class="btn btn-secondary"
+														data-dismiss="modal">
+														Close
+													</button> -->
+													<!-- <button type="button" class="btn btn-primary">Order now</button> -->
+												</div>
+											</div>
+											<!-- <a href="./index.html" class="text-decoration-none text-black-50 text-center text-lg-center text-primary card-text text-uppercase ">More</a> -->
+                                            <button class="clear-cart btn btn-danger">Clear Cart</button>
+												<!-- <button type="button" class="btn btn-secondary"
+														data-dismiss="modal">
+														Close
+													</button>
+													<button type="button" class="btn btn-primary">Order now</button> -->
+										</div>
+									</div>
+									<div class="col-lg-4 bg-grey">
+										<div class="p-5">
+											<h3 class="fw-bold mb-5 mt-2 pt-1">Tổng Giỏ Hàng</h3>
+											<hr class="my-4">
+
+											<div class="d-flex justify-content-between mb-4">
+												<h5 class="text-uppercase">Số Lượng: <span class="total-count"></span>
+												</h5>
+												<h5><span class="total-cart"></span></h5>
+											</div>
+
+											<h5 class="text-uppercase mb-3">Đơn vị giao hàng</h5>
+
+											<div class="mb-4 pb-2">
+												<select class="select w-100 form-control form-control-lg "
+													id="deliverySelect">
+													<option class="pl-2 " value="">Make a choice</option>
+													<option class="pl-2 " value="1">Pay In Cash - 50.000 VND</option>
+													<option class="pl-2 " value="2">Grap Delivery - 100.000 VND</option>
+													<option class="pl-2 " value="3">Shoppe Delivery - 20.000 VND</option>
+												</select>
+											</div>
+
+											<!-- <h5 class="text-uppercase mb-3">nhập mã giảm giá</h5>
+
+											<div class="mb-5">
+												<div class="form-outline">
+													<input type="text" id="form3Examplea2"
+														class="form-control form-control-lg" />
+													<label class="form-label" for="form3Examplea2">Enter your
+														code</label>
+												</div>
+											</div> -->
+
+											<hr class="my-4">
+
+											<div class="d-flex justify-content-between mb-5">
+												<h5 class="text-uppercase">Tổng: </h5>
+												<h5><span class="final-cart"></span></h5>
+											</div>
+											<button type="button" class="btn btn-dark btn-block btn-lg clear-cart"
+												data-mdb-ripple-color="dark" >Order Now</button>
+										</div>
+										
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<div class="modal-dialog modal-lg " role="document"></div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+		<script src="./js.js"></script>
+			
+			<script>
+			displayCartTable('justDropped', justDroppedItems, 3);
+ 			displayCartTable('latestNews', latestNewsItems, 3);
+ 			displayCartTable('bestSeller', bestSellerItems, 3);
+			
+		</script>
+		<!-- <script src="./fix bug.js"></script> -->
+		<script src="./ShoppingCart.js"></script>
+	</body>
+</html>

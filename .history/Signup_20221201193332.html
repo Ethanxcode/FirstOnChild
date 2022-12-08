@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style/style.css" />
+		<link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="./Assets/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css"
+		/>
+		<script src="./script.js"></script>
+		<title>SIGNUP</title>
+	</head>
+
+	<body>
+		<div id="base">
+			<section class="signup-area">
+				<div class="register-container">
+					<div class="container">
+						<section class="section-margin-bot"></section>
+						<div class="body-content-row">
+							<div class="ads">
+								<!-- <h2 class="bold">Đây là Quảng cáo</h2> -->
+								<!-- <video id="video-back" src="./IMG/Pictures/Casestudy5-Go loi chuong trinh.mp4" autoplay loop></video> -->
+								<!-- <img src="./IMG/Pictures/pexels-pixabay-270557.jpg" alt=""> -->
+							</div>
+						</div>
+					</div>
+					<div class="body-content-row">
+						<div class="col-6" style="margin-bottom: 30px">
+							<form id="form-register">
+								<input type="hidden" name="register" value="res" />
+								<div class="cardify signup-form">
+									<div class="login-header">
+										<h3>Tạo tài khoản</h3>
+										<p>
+											Hãy điền đầy đủ thông tin bên dưới để đăng ký tài khoản
+											thành viên LinkNeverDie
+										</p>
+									</div>
+									<div class="login-form">
+										<div class="form-group">
+											<label for="username">Username:</label>
+											<input
+												type="text"
+												id="usernametxt"
+												class="login-text-field"
+												placeholder="Username"
+												name="username"
+												autocomplete="off"
+												required
+												autofocus
+											/>
+											<span
+												id="usernamErorr"
+												class="text-danger"
+												style="
+													color: red;
+													float: right;
+													margin-bottom: 20px;
+													display: block;
+												"
+												>Tối thiểu 3 ký tự và tối đa 50 ký tự</span
+											>
+										</div>
+										<div class="form-group">
+											<label for="email">Email:</label>
+											<input
+												type="text"
+												id="emailtxt"
+												class="login-text-field"
+												placeholder="email"
+												name="email"
+												autocomplete="off"
+												required
+												autofocus
+											/>
+											<span
+												id="emailErorr"
+												class="text-danger"
+												style="
+													color: red;
+													float: right;
+													margin-bottom: 20px;
+													display: none;
+												"
+											></span>
+										</div>
+										<div class="form-group">
+											<label for="password">Password:</label>
+											<input
+												type="text"
+												id="usernametxt"
+												class="login-text-field"
+												placeholder="Password"
+												name="password"
+												autocomplete="off"
+												required
+												autofocus
+											/>
+											<span
+												id="passwordErorr"
+												class="text-danger"
+												style="
+													color: red;
+													float: right;
+													margin-bottom: 20px;
+													display: none;
+												"
+											></span>
+										</div>
+										<div class="form-group">
+											<label for="rePassword">Password:</label>
+											<input
+												type="text"
+												id="usernametxt"
+												class="login-text-field"
+												placeholder="Password"
+												name="password"
+												autocomplete="off"
+												required
+												autofocus
+											/>
+											<span
+												id="passwordErorr"
+												class="text-danger"
+												style="
+													color: red;
+													float: right;
+													margin-bottom: 20px;
+													display: none;
+												"
+											></span>
+										</div>
+										<button class="btn btn--xs register-btn" type="submit">
+											Sign up
+										</button>
+										<div class="login-assist">
+											<p>
+												Bạn đã có tài khoản thành viên ?
+												<a href="/signin">Sign in</a>
+											</p>
+											<p><a href="">Bạn không nhận được mail ?</a></p>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<button onclick="scrollTime()" class="go-top">
+				<i class="fa-solid fa-chevron-up"></i>
+			</button>
+		</div>
+	</body>
+	<!-- <script>
+
+              let __protocol = document.location.protocol;
+              let __baseUrl = __protocol + '//livechat.fpt.ai/v35/src';
+
+              let prefixNameLiveChat = 'z';
+              let objPreDefineLiveChat = {
+                      appCode: 'cd3e3c00482e30ae7956507500d3468a',
+                      themes: '',
+                      appName: prefixNameLiveChat ? prefixNameLiveChat : 'Live support',
+                      thumb: '',
+                      icon_bot: ''
+                  },
+                  appCodeHash = window.location.hash.substr(1);
+              if (appCodeHash.length == 32) {
+                  objPreDefineLiveChat.appCode = appCodeHash;
+              }
+
+              let fpt_ai_livechat_script = document.createElement('script');
+              fpt_ai_livechat_script.id = 'fpt_ai_livechat_script';
+              fpt_ai_livechat_script.src = __baseUrl + '/static/fptai-livechat.js';
+              document.body.appendChild(fpt_ai_livechat_script);
+
+              let fpt_ai_livechat_stylesheet = document.createElement('link');
+              fpt_ai_livechat_stylesheet.id = 'fpt_ai_livechat_script';
+              fpt_ai_livechat_stylesheet.rel = 'stylesheet';
+              fpt_ai_livechat_stylesheet.href = __baseUrl + '/static/fptai-livechat.css';
+              document.body.appendChild(fpt_ai_livechat_stylesheet);
+
+              fpt_ai_livechat_script.onload = function () {
+                  fpt_ai_render_chatbox(objPreDefineLiveChat, __baseUrl, 'livechat.fpt.ai:443');
+              }
+            </script> -->
+	<!-- <script src="https://uhchat.net/code.php?f=259528"></script> -->
+</html>

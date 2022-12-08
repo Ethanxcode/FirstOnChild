@@ -1,0 +1,212 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "nike",
+      "createAt": 1616346753759,
+      "updateAt": 1616346753759
+    },
+    {
+      "id": 2,
+      "name": "Jordan",
+      "createAt": 1616346753759,
+      "updateAt": 1616346753759
+    },
+    {
+      "id": 3,
+      "name": "latestNewsItems",
+      "createAt": 1616346753759,
+      "updateAt": 1616346753759
+    },
+    {
+      "id": 4,
+      "name": "justDroppedItems",
+      "createAt": 1616346753759,
+      "updateAt": 1616346753759
+    },
+    {
+      "id": 5,
+      "name": "bestSellerItems",
+      "createAt": 1616346753759,
+      "updateAt": 1616346753759
+    }
+  ],
+  "products": [
+    {
+      "id": "AirJordan1Low006",
+      "nameItem": "UNC",
+      "itemPrice": 50002200,
+      "status": "good",
+      "brand": "Jordan",
+      "sold": 2,
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày3.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021"
+    },
+    {
+      "id": "NikeDunkLow007",
+      "nameItem": "Velcro Tongue",
+      "itemPrice": 1231200,
+      "status": "normal",
+      "brand": "Nike",
+      "sold": 6,
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày7.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021"
+    },
+    {
+      "id": "AirJordan4008",
+      "nameItem": "Country Blue",
+      "itemPrice": 1000000000,
+      "status": "good",
+      "brand": "Nike",
+      "sold": 6,
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày8.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021"
+    },
+    {
+      "id": "AirJordan4009",
+      "nameItem": "Country Blue",
+      "itemPrice": 19800000,
+      "status": "bad",
+      "brand": "Nike",
+      "sold": 6,
+      "itemCategory": "old",
+      "itemImage": "./img/Pictures/Giày8.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021"
+    },
+    {
+      "id": "NikeDunkLow001",
+      "nameItem": "Reverse UNC",
+      "itemPrice": 120000000,
+      "status": "good",
+      "brand": "Nike",
+      "sold": 2,
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày2.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 12/29/2022"
+    },
+    {
+      "id": "NikeDunkLow002",
+      "nameItem": "Fruity Pebbles",
+      "itemPrice": 5200000,
+      "status": "normal",
+      "brand": "Jordan",
+      "sold": 2,
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày6.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021"
+    },
+    {
+      "id": "AirJordan1High85003",
+      "nameItem": "Black/White",
+      "itemPrice": 120500,
+      "status": "good",
+      "brand": "Nike",
+      "sold": 1,
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày4.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 06/23/2018"
+    },
+    {
+      "id": "AirJordan4004",
+      "nameItem": "Pink Riot",
+      "itemPrice": 1200,
+      "status": "good",
+      "brand": "Jordan",
+      "sold": 1,
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày1.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021"
+    },
+    {
+      "id": "NikeDunkLow005",
+      "nameItem": "UCLA",
+      "itemPrice": 900,
+      "status": "normal",
+      "brand": "Nike",
+      "sold": 6,
+      "itemCategory": "not new",
+      "itemImage": "./img/Pictures/Giày5.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021"
+    },
+    {
+      "id": "Yeezy3500011",
+      "nameItem": "Pirate Black",
+      "itemPrice": 12312310,
+      "status": "good",
+      "brand": "Yeezy",
+      "sold": 9,
+      "itemCategory": "New",
+      "itemImage": "/img/Pictures/Giày10.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021"
+    },
+    {
+      "id": "AirJordan1High0012",
+      "nameItem": "TRUE BLUE",
+      "itemPrice": 10210000,
+      "status": "good",
+      "brand": "Jordan",
+      "sold": 9,
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày8.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021"
+    },
+    {
+      "id": "AirJordan40013",
+      "nameItem": "Thunder",
+      "itemPrice": "1299999",
+      "status": "good",
+      "brand": "Jordan",
+      "sold": "2",
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày13.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021",
+      "createdAt": 1669754655782,
+      "updateAt": 1669754655782
+    }
+  ],
+  "users": [
+    {
+    "id": 1,
+    "username": "admin",
+    "password": "admin",
+    "email": "trannguyendanhuy2904@gmail.com",
+    "cart": {
+      "userProduct": [
+        {
+      "id": "AirJordan40013",
+      "nameItem": "Thunder",
+      "itemPrice": "1299999",
+      "status": "good",
+      "brand": "Jordan",
+      "sold": "2",
+      "itemCategory": "New",
+      "itemImage": "./img/Pictures/Giày13.jpg",
+      "itemDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..",
+      "itemRelease": "Release: 05/05/2021",
+      "createdAt": 1669754655782,
+      "updateAt": 1669754655782
+        }
+      ]
+    } 
+    }
+  ]
+    
+  "profile": {
+    "name": "Ethan"
+  }
+}

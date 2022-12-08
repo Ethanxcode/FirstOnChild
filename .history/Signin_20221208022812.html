@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sign in</title>
+	<link rel="stylesheet" href="./style/style.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+		integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+		integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+		crossorigin="anonymous"></script>
+
+
+</head>
+
+	<body>
+		<div id="base">
+			<section class="signup-area">
+				<div class="container-fluid" style="background-color: #000;">
+					
+					<div class="body-content-row ">
+						<div class="col-lg-4 col-sm-12 col-md-8 p-5" style="margin-bottom: 30px; float: right;">
+							<form action="" id="form-register" method="get" class="form">
+								<!-- <input type="hidden" name="register" value="res" /> -->
+								<div class="cardify signup-form">
+									<div class="login-header">
+										<h3>Đăng nhập</h3>
+										<p>Đăng nhập vào trang của Ethan nhé!</p>
+									</div>
+									<div class="login-form">
+										<div class="formGroup">
+											<label for="username" class="form-label">Username:</label>
+											<input
+												type="text"
+												id="username"
+												class="formControl"
+												placeholder="Username"
+												name="username"
+												autocomplete="off"
+											/>
+											<span
+												class="text-danger formMessage"
+												style="
+													float: right;
+													margin-bottom: 20px;
+													margin-top: 4px;
+													display: block;
+												"
+											></span>
+										</div>
+										<!-- <div class="formGroup">
+											<label for="email" class="form-label">Email:</label>
+											<input
+												type="text"
+												id="email"
+												class="formControl"
+												placeholder="vd: email@domain.com"
+												name="email"
+												autocomplete="off"
+											/>
+											<span
+												class="text-danger formMessage"
+												style="
+													float: right;
+													margin-bottom: 20px;
+													margin-top: 4px;
+													display: block;
+												"
+											></span>
+										</div> -->
+
+										<div class="formGroup">
+											<label for="password" class="form-label">Password:</label>
+											<input
+												type="password"
+												id="password"
+												class="formControl"
+												placeholder="Password"
+												name="password"
+												autocomplete="off"
+											/>
+											<span
+												class="text-danger formMessage"
+												style="
+													float: right;
+													margin-bottom: 20px;
+													margin-top: 4px;
+													display: block;
+												"
+											></span>
+										</div>
+
+										<button
+											class="btn btn--xs formSubmit"
+											onclick="startLogin()"
+											type="submit"
+										>
+											Sign in
+										</button>
+										<div class="login-assist">
+											<p>
+												Bạn chưa có tài khoản thành viên ?
+												<a href="/signup">Sign up</a>
+											</p>
+											<p><a href="">Bạn không nhận được mail ?</a></p>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="container-fluid  p-0">
+		<!-- Footer -->
+		<footer class="text-center text-white d-block" style="background-color: #000000ca">
+			<!-- Grid container -->
+			<div class="container ">
+				<!-- Section: Links -->
+				<section class="mt-5">
+					<!-- Grid row-->
+					<div class="row text-center d-flex justify-content-center pt-5">
+						<!-- Grid column -->
+						<div class="col-md-2">
+							<h6 class="text-uppercase font-weight-bold">
+								<a href="#!" class="text-white">About us</a>
+							</h6>
+						</div>
+						<!-- Grid column -->
+
+						<!-- Grid column -->
+						<div class="col-md-2">
+							<h6 class="text-uppercase font-weight-bold">
+								<a href="#!" class="text-white">Products</a>
+							</h6>
+						</div>
+						<!-- Grid column -->
+
+						<!-- Grid column -->
+						<div class="col-md-2">
+							<h6 class="text-uppercase font-weight-bold">
+								<a href="#!" class="text-white">Awards</a>
+							</h6>
+						</div>
+						<!-- Grid column -->
+
+						<!-- Grid column -->
+						<div class="col-md-2">
+							<h6 class="text-uppercase font-weight-bold">
+								<a href="#!" class="text-white">Help</a>
+							</h6>
+						</div>
+						<!-- Grid column -->
+
+						<!-- Grid column -->
+						<div class="col-md-2">
+							<h6 class="text-uppercase font-weight-bold">
+								<a href="#!" class="text-white">Contact</a>
+							</h6>
+						</div>
+						<!-- Grid column -->
+					</div>
+					<!-- Grid row-->
+				</section>
+				<!-- Section: Links -->
+
+				<hr class="my-5" />
+
+				<!-- Section: Text -->
+				<section class="mb-5">
+					<div class="row d-flex justify-content-center">
+						<div class="col-lg-8">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+								distinctio earum repellat quaerat voluptatibus placeat nam,
+								commodi optio pariatur est quia magnam eum harum corrupti
+								dicta, aliquam sequi voluptate quas.
+							</p>
+						</div>
+					</div>
+				</section>
+				<!-- Section: Text -->
+
+				<!-- Section: Social -->
+				<section class="text-center mb-5">
+					<a href="" class="text-white me-4">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="" class="text-white me-4">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="" class="text-white me-4">
+						<i class="fab fa-google"></i>
+					</a>
+					<a href="" class="text-white me-4">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="" class="text-white me-4">
+						<i class="fab fa-linkedin"></i>
+					</a>
+					<a href="" class="text-white me-4">
+						<i class="fab fa-github"></i>
+					</a>
+				</section>
+				<!-- Section: Social -->
+			</div>
+			<!-- Grid container -->
+
+			<!-- Copyright -->
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+				© 2020 Copyright:
+				<a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+			</div>
+			<!-- Copyright -->
+		</footer>
+		
+	</body>
+
+	<script src="./Validator.js"></script>
+	<script>
+		Validator({
+			form: '#form-register',
+			formGroupSelector: '.formGroup',
+			errorSelector: '.formMessage',
+			rules: [
+				Validator.isRequired('#username', 'Vui lòng nhập trường này!'),
+				// Validator.isRequired('#email', 'Vui lòng nhập trường này!'),
+				// Validator.isEmail('#email'),
+				Validator.isRequired('#password', 'Vui lòng nhập trường này!'),
+				// Sử dụng cho type file
+				// Sử dụng cho type radio
+				// Sử dụng cho type checkbox
+				// Sử dụng cho type select/options
+				// Validator.isRequired('#avatar'),
+				// Validator.isRequired('#provine'),
+				// Validator.isRequired(
+				// 	'input[name="gender"]',
+				// 	'Vui lòng nhập trường này!',
+				// ),
+				Validator.minLength('#password', 3, 50),
+				// Validator.isRequired(
+				// 	'#passwordConfirmation',
+				// 	'Vui lòng nhập trường này!',
+				// ),
+				// Validator.isConfirmed(
+				// 	'#passwordConfirmation',
+				// 	function () {
+				// 		return document.querySelector('#form-register #password').value;
+				// 	},
+				// 	'Giá trị nhập vào không chính xác!',
+				// ),
+			],
+			onSubmit: function (data) {
+				console.log(data);
+			},
+		});
+	</script>
+	<script src="./handleLogin.js"></script>
+</html>

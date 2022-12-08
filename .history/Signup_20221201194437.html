@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style/style.css" />
+		<link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="./Assets/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css"
+		/>
+		<script src="./script.js"></script>
+		<title>SIGNUP</title>
+	</head>
+
+	<body>
+		<div id="base">
+			<section class="signup-area">
+				<div class="register-container">
+					<div class="container">
+						<section class="section-margin-bot"></section>
+						<div class="body-content-row">
+							<div class="ads">
+								<!-- <h2 class="bold">Đây là Quảng cáo</h2> -->
+								<!-- <video id="video-back" src="./IMG/Pictures/Casestudy5-Go loi chuong trinh.mp4" autoplay loop></video> -->
+								<!-- <img src="./IMG/Pictures/pexels-pixabay-270557.jpg" alt=""> -->
+							</div>
+						</div>
+					</div>
+					<div class="body-content-row">
+						<div class="col-6" style="margin-bottom: 30px">
+							<form id="form-register" method="post" class="form">
+								<input type="hidden" name="register" value="res" />
+								<div class="cardify signup-form">
+									<div class="login-header">
+										<h3>Tạo tài khoản</h3>
+										<p>
+											Hãy điền đầy đủ thông tin bên dưới để đăng ký tài khoản
+											thành viên
+										</p>
+									</div>
+									<div class="login-form">
+										<div class="form-group">
+											<label for="username" class="form-label">Username:</label>
+											<input
+												type="text"
+												id="username"
+												class="login-text-field"
+												placeholder="Username"
+												name="username"
+												autocomplete="off"
+											/>
+											<span
+												id="usernamErorr"
+												class="text-danger"
+												style="
+													color: red;
+													float: right;
+													margin-bottom: 20px;
+													display: block;
+												"
+												>Tối thiểu 3 ký tự và tối đa 50 ký tự</span
+											>
+										</div>
+										<div class="form-group">
+											<label for="email" class="form-label">Email:</label>
+											<input
+												type="text"
+												id="email"
+												class="login-text-field"
+												placeholder="vd: email@domain.com"
+												name="email"
+												autocomplete="off"
+											/>
+											<span
+												id="emailErorr"
+												class="text-danger"
+												style="
+													color: red;
+													float: right;
+													margin-bottom: 20px;
+													display: none;
+												"
+											></span>
+										</div>
+										<div class="form-group">
+											<label for="password" class="form-label">Password:</label>
+											<input
+												type="text"
+												id="password"
+												class="login-text-field"
+												placeholder="Password"
+												name="password"
+												autocomplete="off"
+											/>
+											<span
+												id="passwordErorr"
+												class="text-danger"
+												style="
+													color: red;
+													float: right;
+													margin-bottom: 20px;
+													display: none;
+												"
+											></span>
+										</div>
+										<div class="form-group">
+											<label for="passwordConfirmation" class="form-label"
+												>Xác nhận password:</label
+											>
+											<input
+												type="text"
+												id="passwordConfirmation"
+												class="login-text-field"
+												placeholder="Password"
+												name="password"
+												autocomplete="off"
+											/>
+											<span
+												id="passwordErorr"
+												class="text-danger"
+												style="
+													color: red;
+													float: right;
+													margin-bottom: 20px;
+													display: none;
+												"
+											></span>
+										</div>
+										<button class="btn btn--xs register-btn" type="submit">
+											Sign up
+										</button>
+										<div class="login-assist">
+											<p>
+												Bạn đã có tài khoản thành viên ?
+												<a href="/signin">Sign in</a>
+											</p>
+											<p><a href="">Bạn không nhận được mail ?</a></p>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<button onclick="scrollTime()" class="go-top">
+				<i class="fa-solid fa-chevron-up"></i>
+			</button>
+		</div>
+	</body>
+
+	<script src="./Validator.js"></script>
+	<script>
+		// validator({
+		// 	form: '#form-register',
+		// 	rules: [
+		// 		validator.isRequire('#username'),
+		// 		validator.isEmail('#email'),
+		// 	]
+		// })
+	</script>
+</html>
